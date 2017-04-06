@@ -9,8 +9,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/dotenv": "^2.0.20",
+    "@types/request": "0.0.42",
+    "@types/request-promise": "^4.1.33",
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.1.6",
     "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
   }
 }
