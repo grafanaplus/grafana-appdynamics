@@ -1,0 +1,97 @@
+{
+    "extends": "tslint:latest",
+    "rules": {
+        "no-console": false,
+        "arrow-return-shorthand": true,
+        "await-promise": true,
+        "ban": [
+            true, ["window", "isNaN", "You can use Number.isNan() instead of isNaN()"]
+        ],
+        "comment-format": [
+            true,
+            "check-uppercase",
+            "check-space",
+            {
+                "ignore-words": ["TODO"]
+            }
+        ],
+        "cyclomatic-complexity": [
+            true,
+            15
+        ],
+        "import-blacklist": [
+            true,
+            "rxjs",
+            "lodash"
+        ],
+        "max-file-line-count": [
+            true,
+            600
+        ],
+        "max-line-length": [
+            true,
+            120
+        ],
+        "member-access": false,
+        "member-ordering": [
+            true,
+            {
+                "order": "instance-sandwich"
+            }
+        ],
+        "no-any": true,
+        "no-floating-promises": [
+            true,
+            "JQueryPromise",
+            "Bluebird"
+        ],
+        "no-for-in-array": true,
+        "no-inferrable-types": false,
+        "no-magic-numbers": false,
+        "no-mergeable-namespace": true,
+        "no-misused-new": true,
+        "no-namespace": [
+            true,
+            "allow-declarations"
+        ],
+        "no-switch-case-fall-through": true,
+        "no-unbound-method": true,
+        "no-unnecessary-initializer": true,
+        "no-void-expression": true,
+        "object-literal-sort-keys": false,
+        "ordered-imports": [
+            true,
+            {
+                "import-sources-order": "any",
+                "named-imports-order": "case-insensitive"
+            }
+        ],
+        "prefer-function-over-method": [
+            true,
+            "allow-public"
+        ],
+        "prefer-method-signature": true,
+        "promise-function-async": true,
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ],
+        "restrict-plus-operands": true,
+        "strict-boolean-expressions": true,
+        "strict-type-predicates": true,
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "never",
+                "singleline": "never"
+            }
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore"
+        ]
+    }
+}
