@@ -7,6 +7,7 @@
         "ban": [
             true, ["window", "isNaN", "You can use Number.isNan() instead of isNaN()"]
         ],
+        "max-classes-per-file": false,
         "comment-format": [
             true,
             "check-uppercase",

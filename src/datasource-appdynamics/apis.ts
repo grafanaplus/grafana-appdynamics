@@ -27,8 +27,8 @@ class AppDynamicsApi {
             },
             json: true,
             auth: {
-                user: 'david@customer1',
-                password: '181088'
+                user: this.user,
+                password: this.password
             }
         };
 
@@ -43,7 +43,7 @@ class AppDynamicsApi {
 
     updateBusinessApplications() {
 
-        const uri = '/controller/rest/applications?output=json';
+        const uri = '/controller/rest/applications';
         this.makeRequest(uri)
             .then((apps) => {
                 this.businessApplications = apps;
