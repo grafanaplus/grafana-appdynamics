@@ -2,7 +2,7 @@ import { QueryCtrl } from 'app/plugins/sdk';
 
 export class AppDynamicsQueryCtrl extends QueryCtrl {
 
-    static templateUrl = 'partials/query.editor.html';
+    static templateUrl = 'datasource-appdynamics/partials/query.editor.html';
 
 
 

@@ -1,15 +1,15 @@
 import { AppDynamicsDatasource } from './datasource';
 
 class AppDynamicsConfigCtrl {
-    static templateUrl = 'partials/config.html';
+    static templateUrl = 'datasource-appdynamics/partials/config.html';
 }
 
 class AppDynamicsQueryOptionsCtrl {
-    static templateUrl = 'partials/query.options.html';
+    static templateUrl = 'datasource-appdynamics/partials/query.options.html';
 }
 
 class AppDynamicsAnnotationsQueryCtrl {
-    static templateUrl = 'partials/annotations.editor.html';
+    static templateUrl = 'datasource-appdynamics/partials/annotations.editor.html';
 }
 
 export {
